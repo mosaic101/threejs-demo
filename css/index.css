@@ -1,0 +1,406 @@
+html{
+    font-size: 16px;
+}
+@media screen and (min-width:375px) and (max-width:414px) {
+    html {
+        font-size: 18.75px;
+    }
+
+}
+@media screen and (min-width:414px) and (max-width:479px){
+    html{
+        font-size: 20.7px;
+    }
+
+}
+@media screen and (min-width:480px)and (max-width: 560px){
+    html{
+        font-size: 24px;
+    }
+
+}
+@media screen and (min-width:561px)and (max-width: 620px){
+    html{
+        font-size: 28px;
+    }
+
+}
+@media screen and (min-width:621px)and (max-width: 680px){
+    html{
+        font-size: 32px;
+    }
+
+}
+@media screen and (min-width:681px)and (max-width: 768px){
+    html{
+        font-size: 36px;
+    }
+
+}
+@media screen and (min-width:769px)and (max-width: 1024px){
+    html{
+        font-size: 45px;
+    }
+
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.page{
+    width: 100%;
+    height: 100%;
+}
+#container {
+    width: 100%;
+    height: 100%;
+
+}
+.loading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/loading_bg.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+.logo{
+    position: absolute;
+    width: 10.27%;
+    margin-left: 44.86%;
+    top: 45%;
+}
+.Load_font{
+    font-size: 0.5rem;
+    color: #f36f20;
+    margin-left: 35.83%;
+    width: 28.33%;
+    position: absolute;
+    top: 59%;
+    text-align: center;
+}
+.loading_dian{
+    position: absolute;
+    margin-left: 35.83%;
+    width: 28.33%;
+    top: 40%;
+    -webkit-animation:myrotate 1.5s linear infinite;
+    animation:myrotate 1.5s linear infinite;
+}
+.loading p{
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+
+}
+/*.loading_dian span{*/
+    /*background-color: #fff;*/
+    /*width: 5.88%;*/
+    /*height: 15px;*/
+    /*border-radius: 100%;*/
+    /*margin: 2px;*/
+    /*-webkit-animation-fill-mode: both;*/
+    /*animation-fill-mode: both;*/
+    /*position: absolute;*/
+/*}*/
+#tip{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 30px;
+    color: #ffffff;
+}
+.up_ceng{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+.masl{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.875rem;
+    width: 7.1rem;
+    height: 1.51rem;
+    line-height: 1.875rem;
+    text-align: center;
+    font-family: Arial;
+}
+.masl_bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+.haiba{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 35s;
+    -moz-transition: all 35s linear;
+    -webkit-transition: all 35s linear;
+    -o-transition: all 35s linear;
+}
+
+.haibaac{
+    left: 30%;
+}
+.masl span{
+    font-size: 0.8125rem;
+    color: #ffffff;
+}
+.masl_num{
+    margin-right: 0.3rem;
+}
+.day{
+    position: absolute;
+    left: 1.8rem;
+    top: 0.5rem;
+    width: 3.6rem;
+    height: 3.6rem;
+}
+.day_img{
+    width: 3.6rem;
+    height: 3.6rem;
+}
+.day_img_active{
+    -webkit-animation:myrotate2 1.5s linear infinite;
+    animation:myrotate2 1.5s linear infinite;
+}
+.day_01{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3.6rem;
+    height: 3.6rem;
+    background: url("../images/day_01.png") no-repeat;
+    background-size: cover;
+
+}
+.day_01_active{
+    -webkit-animation:myrotate 1.5s linear infinite;
+    animation:myrotate 1.5s linear infinite;
+}
+@keyframes myrotate
+{
+    from {
+        transform:rotate(0deg);
+        -ms-transform:rotate(0deg); 	/* IE 9 */
+        -moz-transform:rotate(0deg); 	/* Firefox */
+        -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+        -o-transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+        -ms-transform:rotate(360deg); 	/* IE 9 */
+        -moz-transform:rotate(360deg); 	/* Firefox */
+        -webkit-transform:rotate(360deg); /* Safari 和 Chrome */
+        -o-transform:rotate(360deg);
+    }
+}
+@-webkit-keyframes myrotate /* Safari 和 Chrome */
+{
+    from {
+        transform:rotate(0deg);
+        -ms-transform:rotate(0deg); 	/* IE 9 */
+        -moz-transform:rotate(0deg); 	/* Firefox */
+        -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+        -o-transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+        -ms-transform:rotate(360deg); 	/* IE 9 */
+        -moz-transform:rotate(360deg); 	/* Firefox */
+        -webkit-transform:rotate(360deg); /* Safari 和 Chrome */
+        -o-transform:rotate(360deg);
+    }
+}
+@keyframes myrotate2
+{
+    from {
+        transform:rotate(0deg);
+        -ms-transform:rotate(0deg); 	/* IE 9 */
+        -moz-transform:rotate(0deg); 	/* Firefox */
+        -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+        -o-transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(-360deg);
+        -ms-transform:rotate(-360deg); 	/* IE 9 */
+        -moz-transform:rotate(-360deg); 	/* Firefox */
+        -webkit-transform:rotate(-360deg); /* Safari 和 Chrome */
+        -o-transform:rotate(-360deg);
+    }
+}
+@-webkit-keyframes myrotate2 /* Safari 和 Chrome */
+{
+    from {
+        transform:rotate(0deg);
+        -ms-transform:rotate(0deg); 	/* IE 9 */
+        -moz-transform:rotate(0deg); 	/* Firefox */
+        -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+        -o-transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(-360deg);
+        -ms-transform:rotate(-360deg); 	/* IE 9 */
+        -moz-transform:rotate(-360deg); 	/* Firefox */
+        -webkit-transform:rotate(-360deg); /* Safari 和 Chrome */
+        -o-transform:rotate(-360deg);
+    }
+}
+.day_num{
+    font-size: 1.2rem;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: -10%;
+    width: 100%;
+    height: 100%;
+    line-height: 4.375rem;
+    text-align: center;
+    font-family: Arial;
+}
+.wendu{
+    position: absolute;
+    left: 1.8rem;
+    bottom: 1.8rem;
+    width: 3.6rem;
+    height: 3.6rem;
+    background: url(../images/wendu.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.dian{
+    width: 3.125rem;
+    height: 3.125rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.56rem;
+    top: 50%;
+    margin-top: -1.56rem;
+    background: url("../images/c1/dian_zu.png");
+    background-size: cover;
+}
+.dian_liang{
+    width: 3.125rem;
+    height: 3.125rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.56rem;
+    top: 50%;
+    margin-top: -1.56rem;
+    -webkit-animation:myrotate 2s linear infinite;
+    animation:myrotate 2s linear infinite;
+}
+
+.dian span:nth-child(0){
+    transform:rotate(18deg);
+    -ms-transform:rotate(18deg); 	/* IE 9 */
+    -moz-transform:rotate(18deg); 	/* Firefox */
+    -webkit-transform:rotate(18deg); /* Safari 和 Chrome */
+    -o-transform:rotate(18deg);
+}
+.wendu_num{
+    font-size: 0.85rem;
+    color: #ffffff;
+    /* position: absolute; */
+    left: 1.56rem;
+    bottom: 2rem;
+    font-family: Arial;
+    margin-top: 1.9rem;
+    display: inline-block;
+}
+.tishi_ceng{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+.xiankuang_01{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.slide{
+    position: absolute;
+    width: 37%;
+    top: 31%;
+    margin-left: 31.5%;
+    display: none;
+}
+.link_btn {
+    position: absolute;
+    width: 38%;
+    height: 2.5rem;
+    z-index: 99;
+    bottom: 5.8%;
+    margin-left: 31%;
+    opacity: 0;
+    display: none;
+    transition: all 0.6s;
+    -moz-transition: all 0.6s 0.2s;
+    -webkit-transition: all 0.6s 0.2s;
+    -o-transition: all 0.6s 0.2s;
+    background: url(../images/link.png) no-repeat;
+    background-size: 100%;
+}
+.link_btnac{
+    display: block;
+    opacity: 1;
+}
+.masl_tiao{
+    width: 3.6rem;
+    height: 0.5rem;
+    position: absolute;
+    top: 0.38rem;
+    right: 2.8rem;
+    background: url(../images/tiao.png) no-repeat;
+    background-position: right;
+    -moz-transition: width 38s 0.2s linear;
+    -webkit-transition: width 38s 0.2s linear;
+    -o-transition: width 38s 0.2s linear;
+}
+.masl_tiaoac{
+    width: 2.2rem;
+}
+.alert {
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: none;
+}
+.alertshow{
+    display: block !important;
+}
+.alert-img2 {
+    position: absolute;
+    top: 5%;
+    right: 18%;
+    width: 17%;
+}
+.alert-img1 {
+    position: absolute;
+    top: 9%;
+    right: 8%;
+    width: 75%;
+}
